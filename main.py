@@ -10,3 +10,15 @@ r = requests.get(url)
 # print(r)
 
 soup = BeautifulSoup(r.text, "html.parser")
+
+# Titles of the columns
+table = soup.find("table",class_ = "ih-td-tab auction-tbl")
+header = table.find_all("th")
+
+titles = []
+
+for i in header:
+    title = i.text
+    titles.append(title)
+
+df = pd.DataFrame(columns = titles)
