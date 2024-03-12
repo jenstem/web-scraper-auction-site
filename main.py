@@ -34,3 +34,5 @@ for i in rows[1:]:
     row.insert(0,first_td)
     l = len(df)
     df.loc[l] = row
+
+df.to_csv("IPL_auction_stats_2024.csv")
