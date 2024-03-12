@@ -15,7 +15,7 @@
 <a id='description'></a>
 ## Description
 
-As a current grad, I wanted to a create a Python Web Scraping app.  The app would utilize Requests, BeautifulSoup & Pandas and would scrap data from a auction site.
+As a current grad, I wanted to a create a Python Web Scraping app.  The app would utilize Requests, BeautifulSoup & Pandas and would scrap data from an auction site.
 ##
 
 <a id='userstory'></a>
